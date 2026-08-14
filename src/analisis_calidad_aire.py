@@ -43,3 +43,20 @@ print()
 print("Estadísticas de PM10")
 print(f"Mínimo: {min_pm10:.2f}")
 print(f"Máximo: {max_pm10:.2f}")
+
+import matplotlib.pyplot as plt
+
+# Gráfica de concentraciones de contaminantes
+dias = [1, 2, 3, 4, 5]
+
+plt.plot(dias, pm25, marker="o", label="PM2.5")
+plt.plot(dias, pm10, marker="s", label="PM10")
+
+plt.title("Concentración de contaminantes")
+plt.xlabel("Día")
+plt.ylabel("Concentración")
+plt.legend()
+plt.grid(True)
+
+plt.savefig("results/contaminantes.png", dpi=300)
+plt.show()
