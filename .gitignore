@@ -29,3 +29,9 @@ env/
 
 # Archivos temporales
 *.tmp
+
+# Datos que no necesitan control de versiones
+data/raw/
+data/processed/
+*.csv
+*.parquet
