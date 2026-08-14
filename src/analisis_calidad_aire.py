@@ -21,8 +21,25 @@ def clasificar_pm25(valor):
 
 clasificacion = clasificar_pm25(promedio_pm25)
 
+# Estadísticas básicas
+min_pm25 = min(pm25)
+max_pm25 = max(pm25)
+
+min_pm10 = min(pm10)
+max_pm10 = max(pm10)
+
 print("Análisis inicial de calidad del aire")
 print("------------------------------------")
 print(f"Promedio de PM2.5: {promedio_pm25:.2f}")
 print(f"Promedio de PM10: {promedio_pm10:.2f}")
 print(f"Clasificación del PM2.5: {clasificacion}")
+
+print()
+print("Estadísticas de PM2.5")
+print(f"Mínimo: {min_pm25:.2f}")
+print(f"Máximo: {max_pm25:.2f}")
+
+print()
+print("Estadísticas de PM10")
+print(f"Mínimo: {min_pm10:.2f}")
+print(f"Máximo: {max_pm10:.2f}")
