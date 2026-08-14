@@ -39,3 +39,7 @@ oficiales de calidad del aire de Nuevo León.
 - `src/`: código fuente en Python.
 - `docs/`: documentación del proyecto.
 - `results/`: gráficas y resultados del análisis.
+
+## Reflexión sobre Git
+
+Este proyecto utiliza Git para registrar de manera organizada los cambios realizados durante su desarrollo.
