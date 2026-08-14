@@ -8,7 +8,21 @@ pm10 = [35.1, 42.7, 30.5, 58.3, 49.2]
 promedio_pm25 = sum(pm25) / len(pm25)
 promedio_pm10 = sum(pm10) / len(pm10)
 
+
+def clasificar_pm25(valor):
+    """Clasifica de forma sencilla una concentración de PM2.5."""
+    if valor <= 12:
+        return "Buena"
+    elif valor <= 35.4:
+        return "Moderada"
+    else:
+        return "Elevada"
+
+
+clasificacion = clasificar_pm25(promedio_pm25)
+
 print("Análisis inicial de calidad del aire")
 print("------------------------------------")
 print(f"Promedio de PM2.5: {promedio_pm25:.2f}")
 print(f"Promedio de PM10: {promedio_pm10:.2f}")
+print(f"Clasificación del PM2.5: {clasificacion}")
