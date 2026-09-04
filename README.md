@@ -1,6 +1,6 @@
 # Análisis de la calidad del aire en el Área Metropolitana de Monterrey
 
-![Verificación del proyecto](https://github.com/clarissacontreras/calidad-aire-monterrey/actions/workflows/verificar.yml/badge.svg)
+![Verificación del proyecto](https://github.com/clarissacontreras/calidad-aire-monterrey/actions/workflows/latex.yml/badge.svg?branch=main)
 
 ## Descripción
 
