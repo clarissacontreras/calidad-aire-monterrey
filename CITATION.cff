@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite it as below."
+
+authors:
+  - family-names: "Contreras Acosta"
+    given-names: "M. C."
+
+title: "Análisis de la calidad del aire en el Área Metropolitana de Monterrey"
+version: "1.0-fase1"
+date-released: "2026-09-03"
+
+url: "https://github.com/clarissacontreras/calidad-aire-monterrey"
