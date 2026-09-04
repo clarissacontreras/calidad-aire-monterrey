@@ -1,5 +1,7 @@
 # Análisis de la calidad del aire en el Área Metropolitana de Monterrey
 
+![Verificación del proyecto](https://github.com/clarissacontreras/calidad-aire-monterrey/actions/workflows/verificar.yml/badge.svg)
+
 ## Descripción
 
 Este proyecto tiene como objetivo realizar un análisis inicial de concentraciones de contaminantes atmosféricos, utilizando datos simulados de PM2.5 y PM10.
