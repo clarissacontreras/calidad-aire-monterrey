@@ -174,8 +174,18 @@ python src/analisis_calidad_aire.py
 
 se ejecutó correctamente y produjo los resultados numéricos esperados y la gráfica `results/contaminantes.png`.
 
+## Licencia
+
+Este proyecto utiliza la licencia MIT porque permite que otras personas consulten, utilicen, modifiquen y distribuyan el código con pocas restricciones, manteniendo el aviso de licencia correspondiente. Esta licencia es adecuada para un proyecto académico que busca facilitar la consulta y reutilización del trabajo.
+
 ## Cómo citar
 
-Para citar este proyecto puede utilizarse provisionalmente el siguiente formato:
+Si utilizas este proyecto, puedes consultar la información de citación en el archivo [CITATION.cff](CITATION.cff) o mediante la opción "Cite this repository" disponible en GitHub.
 
-> Contreras Acosta, M. C. (2026). *Análisis de la calidad del aire en el Área Metropolitana de Monterrey*. GitHub. Repositorio del proyecto.
+## Verificación automática
+
+Este repositorio utiliza GitHub Actions para verificar automáticamente la ejecución del proyecto.
+
+El workflow configura un entorno de Python, instala la biblioteca Matplotlib, ejecuta el programa principal y verifica que se genere correctamente la gráfica `results/contaminantes.png`.
+
+De esta manera, se comprueba automáticamente que el proyecto pueda ejecutarse y producir su resultado principal.
