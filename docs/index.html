@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calidad del Aire en Monterrey</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #1f4e79;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 15px;
+        }
+
+        header p {
+            font-size: 1.1rem;
+        }
+
+        nav {
+            background-color: #163a5c;
+            text-align: center;
+            padding: 12px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background-color: white;
+            margin-bottom: 25px;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            color: #1f4e79;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            margin-left: 25px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background-color: #eef3f7;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .card h3 {
+            color: #1f4e79;
+            margin-bottom: 10px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #1f4e79;
+            color: white;
+            padding: 12px 20px;
+            margin-top: 15px;
+            border-radius: 6px;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background-color: #163a5c;
+        }
+
+        .resultado {
+            text-align: center;
+        }
+
+        .resultado img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #163a5c;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.7rem;
+            }
+
+            nav a {
+                display: block;
+                margin: 8px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Análisis de la Calidad del Aire en el Área Metropolitana de Monterrey</h1>
+        <p>Proyecto académico de análisis y visualización de datos</p>
+    </header>
+
+    <nav>
+        <a href="#proyecto">Proyecto</a>
+        <a href="#objetivo">Objetivo</a>
+        <a href="#metodologia">Metodología</a>
+        <a href="#resultados">Resultados</a>
+    </nav>
+
+    <main>
+
+        <section id="proyecto">
+            <h2>Sobre el proyecto</h2>
+
+            <p>
+                Este proyecto analiza la calidad del aire en el Área
+                Metropolitana de Monterrey mediante herramientas de
+                programación y análisis de datos.
+            </p>
+
+            <p>
+                El proyecto busca facilitar la exploración de información
+                relacionada con los contaminantes atmosféricos y presentar
+                los resultados mediante visualizaciones que permitan
+                interpretar los datos de manera clara.
+            </p>
+        </section>
+
+        <section id="objetivo">
+            <h2>Objetivo</h2>
+
+            <p>
+                El objetivo principal es analizar información relacionada
+                con la calidad del aire y utilizar Python para realizar el
+                procesamiento de los datos y generar representaciones
+                gráficas de los resultados.
+            </p>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>Datos</h3>
+                    <p>
+                        Organización y procesamiento de los datos utilizados
+                        para el análisis.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Análisis</h3>
+                    <p>
+                        Procesamiento de información relacionada con los
+                        contaminantes atmosféricos.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Visualización</h3>
+                    <p>
+                        Generación de gráficas para facilitar la interpretación
+                        de los resultados.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="metodologia">
+            <h2>Metodología</h2>
+
+            <p>
+                El análisis se desarrolla utilizando Python. El código
+                principal se encuentra en la carpeta <strong>src/</strong>
+                del repositorio.
+            </p>
+
+            <p>
+                El programa procesa los datos y genera una visualización
+                de los contaminantes analizados. Los resultados se almacenan
+                en la carpeta <strong>results/</strong>.
+            </p>
+
+            <ul>
+                <li>Organización de los datos.</li>
+                <li>Procesamiento mediante Python.</li>
+                <li>Análisis de contaminantes.</li>
+                <li>Generación de visualizaciones.</li>
+                <li>Interpretación de los resultados.</li>
+            </ul>
+        </section>
+
+        <section id="resultados" class="resultado">
+            <h2>Resultados</h2>
+
+            <p>
+                El proyecto genera una visualización de los contaminantes
+                analizados como resultado del procesamiento de los datos.
+            </p>
+
+            <img src="../results/contaminantes.png"
+                 alt="Gráfica de contaminantes analizados">
+
+            <p>
+                La gráfica anterior corresponde al resultado generado por
+                el programa de análisis.
+            </p>
+        </section>
+
+        <section>
+            <h2>Repositorio</h2>
+
+            <p>
+                Para consultar el código fuente, los datos, la documentación
+                y los resultados completos del proyecto, visita el repositorio
+                en GitHub.
+            </p>
+
+            <a class="button"
+               href="https://github.com/clarissacontreras/calidad-aire-monterrey"
+               target="_blank">
+                Ver repositorio en GitHub
+            </a>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            Proyecto académico — Análisis de la calidad del aire en el
+            Área Metropolitana de Monterrey
+        </p>
+    </footer>
+
+</body>
+</html>
