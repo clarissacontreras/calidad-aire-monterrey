@@ -184,8 +184,8 @@ Si utilizas este proyecto, puedes consultar la información de citación en el a
 
 ## Verificación automática
 
-Este repositorio utiliza GitHub Actions para verificar automáticamente la ejecución del proyecto.
+Este repositorio utiliza GitHub Actions para verificar automáticamente la compilación de la documentación del proyecto.
 
-El workflow configura un entorno de Python, instala la biblioteca Matplotlib, ejecuta el programa principal y verifica que se genere correctamente la gráfica `results/contaminantes.png`.
+El workflow compila el archivo LaTeX `docs/reporte.tex` y verifica que se genere correctamente el documento PDF `docs/reporte.pdf`.
 
-De esta manera, se comprueba automáticamente que el proyecto pueda ejecutarse y producir su resultado principal.
+De esta manera, se comprueba automáticamente que la documentación pueda compilarse correctamente.
